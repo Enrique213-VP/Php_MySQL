@@ -1,6 +1,6 @@
 <?php
 
-$mysql =  new mysqli("localhost", "root", "", "usuario");
+$mysql =  new mysqli("localhost", "usuario_bd", "contrasena", "Base de dato");
 $result = $mysql -> query("select * from persona");
 
 $result_count = $mysql -> field_count;
